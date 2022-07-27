@@ -8,13 +8,11 @@ metadata:
 spec:
   project: tools
   source:
-    repoURL: https://kubernetes-sigs.github.io/external-dns/
-    targetRevision: 1.9.0
+    repoURL: https://davidcharbonnier.github.io/deployments/
+    targetRevision: 0.1.0
     chart: external-dns
     helm:
       releaseName: external-dns
-      valueFiles:
-      - https://raw.githubusercontent.com/davidcharbonnier/deployments/master/configurations/external-dns/values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: external-dns
