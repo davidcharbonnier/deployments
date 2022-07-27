@@ -8,13 +8,11 @@ metadata:
 spec:
   project: tools
   source:
-    repoURL: https://charts.crossplane.io/stable
+    repoURL: https://davidcharbonnier.github.io/deployments/
     targetRevision: 1.8.1
     chart: crossplane
     helm:
       releaseName: crossplane
-      valueFiles:
-      - https://raw.githubusercontent.com/davidcharbonnier/deployments/master/configurations/crossplane/values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: crossplane
