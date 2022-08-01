@@ -30,4 +30,19 @@ entries:
     urls:
     - https://github.com/davidcharbonnier/deployments/releases/download/crossplane-0.1.0/crossplane-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-01T02:07:24.191026056Z"
+  external-dns:
+  - apiVersion: v2
+    appVersion: 1.9.0
+    created: "2022-08-01T02:15:23.364874655Z"
+    dependencies:
+    - name: external-dns
+      repository: https://kubernetes-sigs.github.io/external-dns/
+      version: 1.9.0
+    description: A Helm chart for Kubernetes
+    digest: d8ecd4e45d05fe4eac8ace603882894aedb93c5c5cabbb8745726a29578c3ad2
+    name: external-dns
+    type: application
+    urls:
+    - https://github.com/davidcharbonnier/deployments/releases/download/external-dns-0.1.0/external-dns-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-08-01T02:15:23.365197557Z"
