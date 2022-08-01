@@ -15,4 +15,19 @@ entries:
     urls:
     - https://github.com/davidcharbonnier/deployments/releases/download/cert-manager-0.1.0/cert-manager-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-23T04:09:56.337263446Z"
+  crossplane:
+  - apiVersion: v2
+    appVersion: 1.8.1
+    created: "2022-08-01T02:07:24.191012255Z"
+    dependencies:
+    - name: crossplane
+      repository: https://charts.crossplane.io/stable
+      version: 1.8.1
+    description: A Helm chart for Kubernetes
+    digest: 9a88f2855c90863adffdbf78658fdaee3a12ffe4b7410636d65e6b487fce3eba
+    name: crossplane
+    type: application
+    urls:
+    - https://github.com/davidcharbonnier/deployments/releases/download/crossplane-0.1.0/crossplane-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-08-01T02:07:24.191026056Z"
