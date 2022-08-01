@@ -60,4 +60,19 @@ entries:
     urls:
     - https://github.com/davidcharbonnier/deployments/releases/download/ingress-nginx-0.1.0/ingress-nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-01T02:17:26.734575815Z"
+  nextcloud:
+  - apiVersion: v2
+    appVersion: 3.0.3
+    created: "2022-08-01T03:09:22.460232027Z"
+    dependencies:
+    - name: nextcloud
+      repository: https://nextcloud.github.io/helm/
+      version: 3.0.3
+    description: A Helm chart for Kubernetes
+    digest: 5ac08662521eae6960da1a42aac334e9124daffe5fcfe690698a3d5249ccd74d
+    name: nextcloud
+    type: application
+    urls:
+    - https://github.com/davidcharbonnier/deployments/releases/download/nextcloud-0.1.0/nextcloud-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-08-01T03:09:22.460247327Z"
