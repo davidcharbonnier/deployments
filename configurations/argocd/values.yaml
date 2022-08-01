@@ -195,7 +195,9 @@ server:
     destinations:
     - namespace: '*'
       server: https://kubernetes.default.svc
-    clusterResourceWhitelist: []
+    clusterResourceWhitelist:
+    - group: ''
+      kind: Namespace
     namespaceResourceBlacklist:
     - group: ''
       kind: ResourceQuota
