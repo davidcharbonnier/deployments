@@ -8,13 +8,11 @@ metadata:
 spec:
   project: tools
   source:
-    repoURL: https://kubernetes.github.io/ingress-nginx
-    targetRevision: 4.1.3
+    repoURL: https://davidcharbonnier.github.io/deployments/
+    targetRevision: 0.1.0
     chart: ingress-nginx
     helm:
       releaseName: ingress-nginx
-      valueFiles:
-      - https://raw.githubusercontent.com/davidcharbonnier/deployments/master/configurations/ingress-nginx/values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: ingress-nginx
