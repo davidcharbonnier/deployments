@@ -9,7 +9,7 @@ spec:
   project: tools
   source:
     repoURL: https://davidcharbonnier.github.io/deployments/
-    targetRevision: 1.8.1
+    targetRevision: 0.1.0
     chart: crossplane
     helm:
       releaseName: crossplane
