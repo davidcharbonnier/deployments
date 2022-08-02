@@ -9,7 +9,7 @@ spec:
   project: applications
   source:
     repoURL: https://davidcharbonnier.github.io/deployments/
-    targetRevision: 0.1.0
+    targetRevision: 0.2.0
     chart: nextcloud
     helm:
       releaseName: nextcloud
