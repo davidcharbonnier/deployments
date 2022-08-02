@@ -63,6 +63,20 @@ entries:
   nextcloud:
   - apiVersion: v2
     appVersion: 3.0.3
+    created: "2022-08-02T13:08:26.754956455Z"
+    dependencies:
+    - name: nextcloud
+      repository: https://nextcloud.github.io/helm/
+      version: 3.0.3
+    description: A Helm chart for Kubernetes
+    digest: df092d551a6c8ef77bccf817bc9a7a78f39c4e58e7845e146de7f9ea38b5481e
+    name: nextcloud
+    type: application
+    urls:
+    - https://github.com/davidcharbonnier/deployments/releases/download/nextcloud-0.2.0/nextcloud-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 3.0.3
     created: "2022-08-01T03:09:22.460232027Z"
     dependencies:
     - name: nextcloud
@@ -75,4 +89,4 @@ entries:
     urls:
     - https://github.com/davidcharbonnier/deployments/releases/download/nextcloud-0.1.0/nextcloud-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-01T03:09:22.460247327Z"
+generated: "2022-08-02T13:08:26.754969355Z"
