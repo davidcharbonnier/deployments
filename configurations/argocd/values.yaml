@@ -203,7 +203,7 @@ server:
       kind: ResourceQuota
     - group: ''
       kind: LimitRange
-    - group: ''
+    - group: 'networking'
       kind: NetworkPolicy
     namespaceResourceWhitelist:
     - group: '*'
